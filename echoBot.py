@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 # update. Error handlers also receive the raised TelegramError object in error.
 
 chat_id_of_channel = -1001169150122
-TOKEN = '577029885:AAGHJElNz3nm8zc9zzpWS1G843f2AZqG2zA'
+TOKEN = 'TOKEN'
 
 
 def start(bot: Bot, update: Update):
