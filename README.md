@@ -23,4 +23,3 @@ Basic Echobot example, repeats messages and prints Channel messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 
-Developed by pyshivam ( Shivam Gupta).
