@@ -8,7 +8,7 @@ First, a few handler functions are defined.
 
 Then, those functions are passed to the Dispatcher and registered at their respective places.
 
-Then, the bot is started and runs until we press Ctrl-C on the command line.
+Then, the bot will be started and runs until we press Ctrl-C on the command line.
 
 
 ## Installation
