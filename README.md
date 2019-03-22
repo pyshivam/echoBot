@@ -19,6 +19,9 @@ It will install `python-telegram-bot` This library provides a pure Python interf
 
 
 ## Usage:
+
+    python3 echoBot.py
+
 Basic Echobot example, repeats messages and prints Channel messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
