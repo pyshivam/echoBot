@@ -20,6 +20,12 @@ It will install `python-telegram-bot` This library provides a pure Python interf
 
 ## Usage:
 
+Edit echoBot.py
+
+    TOKEN = "your token"
+
+Start bot
+
     python3 echoBot.py
 
 Basic Echobot example, repeats messages and prints Channel messages.
