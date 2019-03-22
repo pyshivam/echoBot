@@ -29,20 +29,20 @@ chat_id_of_channel = -1001169150122
 TOKEN = 'TOKEN'
 
 
-def start(bot: Bot, update: Update):
+def start(bot, update):
     """Send a message when the command /start is issued."""
     chat_id = update.message.chat_id
     bot.send_message(chat_id=chat_id, text="hi there, welcome to my channel")
 
 
 # Print messages received from channel.
-def channel_message(bot: Bot, update: Update):
+def channel_message(bot, update):
     msg = update.effective_message
     print("Message received from channel: %s" % str(msg['text']))
 
 
 # Reply user with uppercase messages of user.
-def reply_upper(bot: Bot, update: Update):
+def reply_upper(bot, update):
     chat_id = update.message.chat_id
     bot.send_message(chat_id=chat_id, text=update.message.text.upper())
 
