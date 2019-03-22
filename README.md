@@ -13,7 +13,7 @@ Then, the bot will be started and runs until we press Ctrl-C on the command line
 
 ## Installation
 
-    pip install -r requirement.txt
+    pip3 install -r requirement.txt
 
 It will install `python-telegram-bot` This library provides a pure Python interface for the Telegram Bot API. 
 
